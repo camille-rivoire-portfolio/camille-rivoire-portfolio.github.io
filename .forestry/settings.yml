@@ -7,11 +7,9 @@ sections:
 - type: document
   path: home.md
   label: Home
-  match: "**/*"
 - type: document
   path: about.md
   label: About
-  match: "**/*"
 - type: directory
   path: _projects
   label: Projects
