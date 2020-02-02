@@ -54,6 +54,12 @@ fields:
       required: false
     label: Title
     description: Title of the section
+  - name: background
+    type: text
+    config:
+      required: false
+    label: Background
+    description: Background color of the section
   - name: content
     type: textarea
     default: ''
