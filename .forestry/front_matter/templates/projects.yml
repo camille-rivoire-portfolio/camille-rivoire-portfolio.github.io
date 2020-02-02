@@ -8,3 +8,5 @@ fields:
     required: false
   label: Title
   description: Title of the project
+pages:
+- _projects/title.md
