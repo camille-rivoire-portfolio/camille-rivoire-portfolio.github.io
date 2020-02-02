@@ -48,36 +48,36 @@ fields:
 - name: sections
   type: field_group_list
   fields:
-  - name: section_text
-    type: blocks
-    label: Section Text
-    template_types:
-    - section-projects
+  - name: title
+    type: text
     config:
-      min: 
-      max: 
-    description: Sections with text
+      required: false
+    label: Title
+    description: Title of the section
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+    description: Text of section (without pictures)
+  - name: pictures
+    type: boolean
+    label: Pictures
+    description: Section showing pictures
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Images
+    description: Images to show
   config:
     min: 
     max: 
     labelField: 
   label: Sections
-- name: section_pictures
-  type: field_group_list
-  fields:
-  - name: pictures
-    type: blocks
-    label: Pictures
-    template_types:
-    - section-pictures
-    config:
-      min: 
-      max: 
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Section Pictures
 - name: next_project
   type: text
   config:
