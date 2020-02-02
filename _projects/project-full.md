@@ -8,7 +8,6 @@ typeds:
 - Berlin
 - Project
 sections:
-- section_text: []
 - section_text:
   - template: section-projects
     title: Title
