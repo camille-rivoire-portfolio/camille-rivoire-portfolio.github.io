@@ -2,7 +2,7 @@
 title: First project
 desc: Desc
 order: 1
-layout: ''
+layout: projects
 cover: "/assets/images/blancc-cover-compressor.png"
 typeds:
 - Typed
