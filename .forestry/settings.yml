@@ -5,8 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: home.md
+  path: index.md
   label: Home
+  match: "**/*"
 - type: document
   path: about.md
   label: About
