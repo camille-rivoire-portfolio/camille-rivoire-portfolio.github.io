@@ -69,5 +69,21 @@ fields:
     max: 
     labelField: 
   label: Sections
+- name: section_pictures
+  type: field_group_list
+  fields:
+  - name: pictures
+    type: blocks
+    label: Pictures
+    template_types:
+    - section-pictures
+    config:
+      min: 
+      max: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Section Pictures
 pages:
 - _projects/title.md
