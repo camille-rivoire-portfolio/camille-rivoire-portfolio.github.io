@@ -52,5 +52,22 @@ fields:
   label: Next project
   description: Next project of the list. If this project is the last one link to the
     first one. Only small caps no space (use - instead)
+- name: sections
+  type: field_group_list
+  fields:
+  - name: section_text
+    type: blocks
+    label: Section Text
+    template_types:
+    - section-projects
+    config:
+      min: 
+      max: 
+    description: Sections with text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sections
 pages:
 - _projects/title.md
