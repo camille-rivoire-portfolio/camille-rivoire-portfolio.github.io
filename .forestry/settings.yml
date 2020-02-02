@@ -20,7 +20,7 @@ sections:
   label: Data
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 upload_dir: assets/images
 public_path: ''
 front_matter_path: ''
