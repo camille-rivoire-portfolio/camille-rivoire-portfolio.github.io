@@ -45,6 +45,39 @@ fields:
     max: 
   label: Typed
   description: Words typed in the cover
+- name: sections
+  type: field_group_list
+  fields:
+  - name: section_text
+    type: blocks
+    label: Section Text
+    template_types:
+    - section-projects
+    config:
+      min: 
+      max: 
+    description: Sections with text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sections
+- name: section_pictures
+  type: field_group_list
+  fields:
+  - name: pictures
+    type: blocks
+    label: Pictures
+    template_types:
+    - section-pictures
+    config:
+      min: 
+      max: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Section Pictures
 - name: next_project
   type: text
   config:
@@ -53,4 +86,5 @@ fields:
   description: Next project of the list. If this project is the last one link to the
     first one. Only small caps no space (use - instead)
 pages:
+- _projects/project-full.md
 - _projects/title.md
