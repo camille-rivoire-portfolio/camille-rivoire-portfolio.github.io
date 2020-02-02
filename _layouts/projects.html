@@ -16,7 +16,24 @@ layout: default
 	</div>
 </div>
 
+{% for section in page.sections %}
+{% if section.pictures == true %}
+<section class="projects-container bg-{{ section.background }}">
+	<div class="container">
+		<h3>{{ section.title }}</h3>
+		<ul class="list-screens">
+			{% for image in section.images %}
+			<li><img src="/assets/images/{{ image }}" alt="" /></li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
 
+
+{% else %}
+
+{% endif %}
+{% endfor %}
 
 <!-- {{ content }} -->
 
