@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="cover-home" style="background: url(/assets/images/{{page.cover}});">
-	<div class="title">
-		<h1>{{ site.title }}</h1>
-		<div class="type-wrap">
-			<div id="typed-strings">
-				{% for typed in page.typeds %}
-				<h2>{{ typed }}</h2>
-				{% endfor %}
-			</div>
-			<span id="typed" style="white-space:pre;"></span>
-		</div>
-    </div>
-    
-    <div class="intro">
-        {{ page.intro | markdownify }}
-        <img src="/assets/images/logo.svg" alt="Arrow down" class="arrow-logo">
+<div class="cover cover-fixed">
+    <div class="cover-bg" style="background: url(/assets/images/{{page.cover}});"></div>
+    <div class="content">
+        <div class="title">
+            <h1>{{ site.title }}</h1>
+            <div class="type-wrap">
+                <div id="typed-strings">
+                    {% for typed in page.typeds %}
+                    <h2>{{ typed }}</h2>
+                    {% endfor %}
+                </div>
+                <span id="typed" style="white-space:pre;"></span>
+            </div>
+        </div>
+
+        <div class="intro">
+            {{ page.intro | markdownify }}
+            <i class="fas fa-arrow-down"></i>
+        </div>
     </div>
 </div>
 
@@ -33,3 +36,4 @@ layout: default
     </div>
     {% endfor %}
 </div>
+

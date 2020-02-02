@@ -8,6 +8,9 @@ footer {
         top: 50px;
         bottom: 50px;
     };
+    position: relative;
+    z-index: 1;
+    background-color: $white;
 
     ul {
         width: 100%;
