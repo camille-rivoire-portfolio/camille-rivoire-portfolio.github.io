@@ -1,0 +1,15 @@
+title: Camille Rivoire
+email: 
+description: 
+baseurl: "/"
+url: "https://camille-rivoire.github.io"
+
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+
+sass:
+    style: compressed
+    sass_dir: _sass

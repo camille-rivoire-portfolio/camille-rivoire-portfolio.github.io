@@ -1,0 +1,194 @@
+/*=============================================== About ===============================================*/
+
+#about {
+	.cover-about {
+		width: 100%;
+		float: left;
+		padding-top: 10vh;
+		margin-bottom: 100px;
+
+		.picture {
+			width: 30%;
+			float: left;
+			margin-right: 5%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.title {
+			width: 65%;
+			float: left;
+
+			h1 {
+				width: 100%;
+				float: left;
+				margin-bottom: 50px;
+               }
+               
+               p {
+                    font-size: $font-intro;
+               }
+          }
+          
+          @media only screen and (max-width: 600px) {
+               .picture {
+                    width: 100%;
+                    margin-right: 0;
+                    @include flexbox(center, center, nowrap);
+
+                    img {
+                         width: 30%;
+                         margin-bottom: 50px;
+                    }
+               }
+
+               .title {
+                    width: 100%;
+               }
+          } 
+     }
+
+	.list-education,
+	.list-languages,
+	.list-skills,
+	.list-experience {
+          @extend %ulNone;
+     }
+     
+     h3 {
+          width: 100%;
+          float: left;
+          margin-bottom: 15px;
+     }
+
+     .list-education,
+     .list-experience {
+          li {
+               width: 100%;
+               float: left;
+               margin-bottom: 15px;
+               
+               p {
+                    width: 100%;
+                    float: left;
+                    margin-bottom: 10px;
+               }
+          }
+     }
+
+     .list-education {
+          .description {
+               @extend %montserrat-italic;
+          }
+     }
+
+     .list-experience {
+          .skills {
+               @extend %montserrat-italic;
+          }
+     }
+
+     .list-languages, .list-skills {
+          margin-bottom: 200px;
+
+          @media only screen and (max-width: 600px) {
+               margin-bottom: 15px;
+          }
+
+          li {
+               width: 100%;
+               float: left;
+               margin-bottom: 5px;
+          }
+     }
+
+     .list-skills li {
+          width: 50%;
+
+          &:nth-child(odd) {
+               padding-right: 5%;
+          }
+
+          &:nth-child(even){
+               padding-left: 5%;
+          }
+     }
+
+     @media only screen and (max-width: 600px) {
+          .list-skills {
+               margin-bottom: 200px;
+
+               li {
+                    width: 100%;
+
+                    &:nth-child(odd) {
+                         padding-right: 0;
+                    }
+          
+                    &:nth-child(even){
+                         padding-left: 0;
+                    }
+               }
+          }
+     }
+
+     .cv_link {
+          float: left;
+          color: $black;
+          text-decoration: none;
+          @extend %montserrat-bold;
+          font-size: $font-titles;
+          position: relative;
+
+          span {
+               position: absolute;
+               width: 0;
+               float: left;
+               height: 2px;
+               background: $black;
+               bottom: -2px;
+               left: 50%;
+               right: 50%;
+               @include transition(all, .2s, ease);
+           }
+
+           &:hover span {
+               left: 0;
+               right: 0;
+               width: 100%;
+           }
+     }
+
+     .col-mobile {
+          display: none;
+     }
+
+     @media only screen and (max-width: 600px) {
+          .col-desktop {
+               display: none;
+          }
+
+          .col-mobile {
+               display: inherit;
+          }
+     }
+
+     .col-padding-left {
+          padding-right: 5%;
+
+          @media only screen and (max-width: 600px) {
+               padding-right: 0;
+          }
+     }
+
+     .col-padding-right {
+          padding-left: 5%;
+          margin-right: 0 !important;
+
+          @media only screen and (max-width: 600px) {
+               padding-left: 0;
+          }
+     }
+}

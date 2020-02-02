@@ -1,0 +1,15 @@
+- name: behance
+  link: "https://www.behance.net/juliapopko"
+  icon: fab fa-behance
+- name: dribble
+  link: "https://dribbble.com/julpop"
+  icon: fab fa-dribbble"
+- name: linkedin
+  link: "www.linkedin.com/in/julia-popko"
+  icon: fab fa-linkedin-in
+- name: medium
+  link: "https://medium.com/@juliettapop"
+  icon: fab fa-medium-m
+- name: email
+  link: mailto:juliettapop@gmail.com
+  icon: fas fa-envelope
