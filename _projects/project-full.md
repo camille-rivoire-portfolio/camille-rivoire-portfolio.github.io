@@ -16,6 +16,13 @@ sections:
     I also have to redesign the existing logo.
   pictures: false
   images: []
+- title: Screens
+  content: ''
+  pictures: true
+  images:
+  - "/meetive-mobile-screen-2.png"
+  - "/blancc-mobile-2.png"
+  - "/meetive-mobile-screen-3.png"
 section_pictures: []
 next_project: project-2
 
