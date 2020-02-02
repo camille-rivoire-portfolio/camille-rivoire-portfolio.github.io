@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Layout
-  hidden: true
+  hidden: false
   default: projects
 - name: title
   type: text
