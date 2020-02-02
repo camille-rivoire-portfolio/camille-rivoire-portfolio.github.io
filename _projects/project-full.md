@@ -23,7 +23,6 @@ sections:
   - "/meetive-mobile-screen-2.png"
   - "/blancc-mobile-2.png"
   - "/meetive-mobile-screen-3.png"
-section_pictures: []
 next_project: project-2
 
 ---
