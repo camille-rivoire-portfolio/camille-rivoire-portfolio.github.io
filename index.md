@@ -8,5 +8,6 @@ typeds:
   - Typed 2
 intro: |-
   Hey I'm Camille!
+cover: cover-home.svg
 ---
 
