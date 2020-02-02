@@ -45,13 +45,6 @@ fields:
     max: 
   label: Typed
   description: Words typed in the cover
-- name: next_project
-  type: text
-  config:
-    required: true
-  label: Next project
-  description: Next project of the list. If this project is the last one link to the
-    first one. Only small caps no space (use - instead)
 - name: sections
   type: field_group_list
   fields:
@@ -85,5 +78,12 @@ fields:
     max: 
     labelField: 
   label: Section Pictures
+- name: next_project
+  type: text
+  config:
+    required: true
+  label: Next project
+  description: Next project of the list. If this project is the last one link to the
+    first one. Only small caps no space (use - instead)
 pages:
 - _projects/title.md
