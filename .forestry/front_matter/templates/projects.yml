@@ -51,7 +51,7 @@ fields:
     required: true
   label: Next project
   description: Next project of the list. If this project is the last one link to the
-    first one
+    first one. Only small caps no space (use - instead)
 pages:
 - _projects/project-2.md
 - _projects/title.md
