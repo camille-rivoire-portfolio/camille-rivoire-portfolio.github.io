@@ -4,7 +4,7 @@ layout: default
 
 <div class="cover-home">
 	<div class="title">
-		<img src="/assets/images/logo.svg" alt="{{ page.logo_alt }}" />
+		<img src="logo.svg" alt="{{ page.logo_alt }}" />
 		<h1>{{ site.title }}</h1>
 		<div class="type-wrap">
 			<div id="typed-strings">
@@ -18,7 +18,7 @@ layout: default
     
     <div class="intro">
         {{ page.intro | markdownify }}
-        <img src="/assets/images/logo.svg" alt="Arrow down" class="arrow-logo">
+        <img src="logo.svg" alt="Arrow down" class="arrow-logo">
     </div>
 </div>
 
@@ -28,7 +28,7 @@ layout: default
     {% if project.link_medium == true %}
     <div class="project-list">
         <a href="{{ project.link }}" target="_blank">
-            <div class="cover-project-home" style="background: url(/assets/images/{{project.cover}});"></div>
+            <div class="cover-project-home" style="background: url({{project.cover}});"></div>
             <div class="purple-bg"></div>
             <p>{{ project.title }}</p>
         </a>
@@ -36,7 +36,7 @@ layout: default
     {% else %}
     <div class="project-list">
         <a href="{{ project.url }}">
-            <div class="cover-project-home" style="background: url(/assets/images/{{project.cover}});"></div>
+            <div class="cover-project-home" style="background: url({{project.cover}});"></div>
             <div class="purple-bg"></div>
             <p>{{ project.title }}</p>
         </a>
