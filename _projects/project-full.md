@@ -17,6 +17,7 @@ sections:
   pictures: false
   images: []
   background: light-gray
+  image: []
 - title: UX Research & Design process
   background: white
   content: 'My research for this project was mostly based on the visual competitors’
@@ -31,12 +32,14 @@ sections:
     various types of lines and some smooth interactions.'
   pictures: false
   images: []
+  image: []
 - title: Styles
   background: ''
   content: ''
   pictures: true
   images:
   - "/sotonweb-style-tile.png"
+  image: []
 - title: Logo redesign
   background: purple
   content: According to the client’s request, I redesigned the logo, that looked very
@@ -46,6 +49,7 @@ sections:
     the color palette used for the website.
   pictures: false
   images: []
+  image: []
 - title: Screens
   content: ''
   pictures: true
@@ -54,6 +58,7 @@ sections:
   - "/blancc-mobile-2.png"
   - "/meetive-mobile-screen-3.png"
   background: ''
+  image: []
 - title: Overview
   background: gray
   content: |-
@@ -66,6 +71,7 @@ sections:
     Softwares: Sketch, Adobe Illustrator, InVision, Principle
   pictures: false
   images: []
+  image: []
 next_project: project-2
 
 ---
