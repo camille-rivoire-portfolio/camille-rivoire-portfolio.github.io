@@ -4,7 +4,7 @@
      .cover-about {
           width: 100%;
           float: left;
-          height: 70vh;
+          min-height: 70vh;
           @include flexbox(center, flex-start, nowrap);
 
           .picture {
@@ -23,10 +23,30 @@
                     font-size: 16px;
                }
           }
+
+          @media only screen and (max-width: 600px) {
+               flex-wrap: wrap;
+               padding-top: 100px;
+
+               .picture {
+                    width: 100%;
+                    margin-bottom: 50px;
+
+                    img {
+                         width: 50%;
+                    }
+               }
+
+               .title {
+                    width: 100%;
+               }
+          }
      }
 
      .row {
           margin-top: 100px;
+          float: left;
+          width: 100%;
 
           h3 {
                margin-bottom: 20px;
@@ -34,7 +54,7 @@
 
           ul {
                @extend %ulNone;
-               margin-bottom: 40px;
+               // margin-bottom: 0px;
 
                li {
                     margin-bottom: 20px;
@@ -54,6 +74,16 @@
 
                     .skills, .description {
                          @extend %montserrat-italic;
+                    }
+               }
+          }
+
+          .row-2-cols {
+               margin-top: 50px;
+
+               @media only screen and (max-width: 600px) {
+                    .col-6-12 {
+                         margin-bottom: 50px;
                     }
                }
           }
@@ -82,6 +112,30 @@
                width: 100%;
                left: 0;
                right: 0;
+          }
+     }
+
+     .col-mobile {
+          display: none;
+
+          @media only screen and (max-width: 600px) {
+               display: inherit;
+          }
+     }
+
+     .col-desktop {
+          @media only screen and (max-width: 600px) {
+               display: none;
+          }
+     }
+
+     .col-padding-right {
+          margin-right: 0;
+     }
+
+     @media only screen and (max-width: 600px) {
+          .col-6-12 {
+               margin-bottom: 50px;
           }
      }
 }
