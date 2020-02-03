@@ -8,6 +8,12 @@ Open the folder in the terminal and type `jekyll serve`. This automatically buil
 
 Open Github Desktop, on the left bar type the summary of your changes (eg: Added project name), then click on `Commit to master`, and on the top bar click on `Push origin`. Done!
 
+## It takes time to upload (around 5 minutes), don't worry if the website doesn't update right away :)
+
+## Home page
+
+Just follow the form :)
+
 ## Add a project
 
 Open Forestry.io, click on `Projects` and `Create new`. 
@@ -22,6 +28,10 @@ Click on the button `Add section`, and on the card created.
 
 Click on the toggle and on the `+`.
 
+## About page
+
+Just follow the form :)
+
 ## Add social links
 
-In the left menu click on `Data` then `social.yml`. Then click on `Add social`, click on the card and fill the form. For the icon, go to [Font Awesome](https://fontawesome.com/)
+In the left menu click on `Data` then `social.yml`. Then click on `Add social`, click on the card and fill the form. For the icon, go to [Font Awesome](https://fontawesome.com/), choose the icon you want and paste the icon class. Eg: `fab fa-behance`.
