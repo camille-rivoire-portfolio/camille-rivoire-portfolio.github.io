@@ -46,8 +46,9 @@ languages:
 - name: English
   level: Fluent
 skills:
-- Skill
-- skill
-cv_link: ''
+- Sketch
+- Principle
+- Marvel
+cv_link: "/cv.pdf"
 
 ---
