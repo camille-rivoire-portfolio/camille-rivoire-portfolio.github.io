@@ -5,7 +5,7 @@ layout: default
 <main>
 	<div class="cover-about">
 		<div class="picture">
-			<img src="{{page.picture}}" alt="{{page.alt_picture}}" />
+			<img src="/assets/images/{{page.picture}}" alt="{{page.alt_picture}}" />
 		</div>
 
 		<div class="title">
@@ -58,7 +58,7 @@ layout: default
 				{% for experience in page.experiences %}
 				<li>
 					<p class="title">{{experience.title}}</p>
-					<p class="subtitle">{% if experience.company %}{{experience.company}},
+					<p class="subtitle">{% if experience.company != '' %}{{experience.company}},
 						{% endif %}{{experience.city}} | {{experience.date}}</p>
 					<p class="description">{{experience.description}}</p>
 					<p class="skills">Skills: {{experience.skills}}</p>
@@ -67,7 +67,7 @@ layout: default
 			</ul>
 		</div>
 
-		<div class="col-6-12 col-padding-left col-mobile">
+		<!-- <div class="col-6-12 col-padding-left col-mobile">
 			<h3>Education</h3>
 			<ul class="list-education">
 				{% for education in page.educations %}
@@ -102,6 +102,6 @@ layout: default
 
 			<a href="{{page.cv_link}}" class="cv_link" target="_blank">PDF
 				Version<span></span></a>
-		</div>
+		</div> -->
 	</div>
 </main>
