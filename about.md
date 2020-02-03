@@ -29,11 +29,12 @@ experiences:
   skills: Teaching a foreign language, goal oriented teaching methodology lateral
     thinking, mentoring.
 educations:
-- title: Title
-  school: School
-  city: City
-  date: Dates
-  description: Description
+- title: UX / UI Design Bootcamp
+  school: Ironhack
+  city: Berlin
+  date: August - October 2019
+  description: 'Projects: design for iOS and Android apps, UX and UI: design thinking,
+    user research, personas, wireframing, prototyping on Sketch and Principle.'
 languages:
 - name: Language name
   level: Level
