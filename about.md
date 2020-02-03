@@ -35,6 +35,11 @@ educations:
   date: August - October 2019
   description: 'Projects: design for iOS and Android apps, UX and UI: design thinking,
     user research, personas, wireframing, prototyping on Sketch and Principle.'
+- title: Master’s Studies
+  school: American Studies
+  city: Hamburg University
+  date: 2018 - 2019
+  description: Student exchange.
 languages:
 - name: Language name
   level: Level
