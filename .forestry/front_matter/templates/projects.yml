@@ -79,14 +79,6 @@ fields:
     config: {}
     label: Images
     description: Images to show
-  - name: image
-    type: blocks
-    template_types:
-    - images
-    config:
-      min: 
-      max: 
-    label: Image
   config:
     min: 
     max: 
