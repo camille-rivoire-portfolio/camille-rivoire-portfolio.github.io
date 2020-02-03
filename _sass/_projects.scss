@@ -35,6 +35,56 @@
 
                          img {
                               width: 100%;
+                              cursor: pointer;
+                         }
+
+                         .modal {
+                              position: fixed;
+                              top: 50vh;
+                              left: 50%;
+                              z-index: 9999;
+                              color: $white;
+                              width: 0;
+                              height: 0;
+                              background-color: rgba($color: $black, $alpha: 0.7);
+                              @include flexbox(center, center, nowrap);
+                              @include transition(all, .5s, ease);
+
+                              .pic-modal {
+                                   width: 90%;
+                                   height: 90%;
+                                   background-size: contain !important;
+                                   background-position: center !important;
+                                   background-repeat: no-repeat !important;
+                                   opacity: 0;
+                                   @include transition(all, .5s, ease);
+                                   transition-delay: .5s;
+                              }
+
+                              i {
+                                   position: absolute;
+                                   top: 50px;
+                                   right: 50px;
+                                   cursor: pointer;
+                                   display: none;
+                              }
+                         }
+
+                         &.modal-open {
+                              .modal {
+                                   width: 100%;
+                                   height: 100vh;
+                                   top: 0;
+                                   left: 0;
+
+                                   .pic-modal {
+                                        opacity: 1;
+                                   }
+
+                                   i {
+                                        display: inherit;
+                                   }
+                              }
                          }
                     }
 
