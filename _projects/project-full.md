@@ -8,6 +8,23 @@ typeds:
 - Berlin
 - Project
 sections:
+- title: Logo redesign
+  background: purple
+  content: According to the client’s request, I redesigned the logo, that looked very
+    old-fashioned and not visually appealing. I decided to use lowercase wordmarks,
+    which increase perceptions of brand friendliness. I wanted it to look clean and
+    modern, and I also implemented a colorful accent - gradient shape, aligned with
+    the color palette used for the website.
+  pictures: false
+  images: []
+- title: Screens
+  content: ''
+  pictures: true
+  images:
+  - "/meetive-mobile-screen-2.png"
+  - "/blancc-mobile-2.png"
+  - "/meetive-mobile-screen-3.png"
+  background: ''
 - title: UX Research & Design process
   background: white
   content: 'My research for this project was mostly based on the visual competitors’
@@ -31,14 +48,6 @@ sections:
   pictures: false
   images: []
   background: light-gray
-- title: Screens
-  content: ''
-  pictures: true
-  images:
-  - "/meetive-mobile-screen-2.png"
-  - "/blancc-mobile-2.png"
-  - "/meetive-mobile-screen-3.png"
-  background: ''
 next_project: project-2
 
 ---
