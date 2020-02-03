@@ -7,73 +7,85 @@ fields:
   label: layout
 - type: text
   name: desc
-  label: desc
+  label: Desc
+  description: Meta description of the page
 - type: text
   name: title
-  label: title
-- type: text
-  name: text_about
-  label: text_about
+  label: Title
+- name: text_about
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text About
+  description: Intro text
 - type: file
   name: picture
-  label: picture
+  label: Picture
 - type: text
   name: alt_picture
-  label: alt_picture
+  label: Alt Text
+  description: Alt text for the picture
 - type: field_group_list
   name: experiences
-  label: experiences
+  label: Experiences
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: city
-    label: city
+    label: City
   - type: text
     name: company
-    label: company
+    label: Company
   - type: text
     name: date
-    label: date
+    label: Date
+    description: Start - End
   - type: text
     name: description
-    label: description
+    label: Description
   - type: text
     name: skills
-    label: skills
+    label: Skills
+    description: Skill 1, Skill 2, etc.
 - type: field_group_list
   name: educations
-  label: educations
+  label: Educations
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: school
-    label: school
+    label: School
   - type: text
     name: city
-    label: city
+    label: City
   - type: text
     name: date
-    label: date
+    label: Date
+    description: Start - End
   - type: text
     name: description
-    label: description
+    label: Description
 - type: field_group_list
   name: languages
-  label: languages
+  label: Languages
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: text
     name: level
-    label: level
+    label: Level
 - type: list
   name: skills
-  label: skills
+  label: Skills
 - type: file
   name: cv_link
-  label: cv_link
+  label: CV
