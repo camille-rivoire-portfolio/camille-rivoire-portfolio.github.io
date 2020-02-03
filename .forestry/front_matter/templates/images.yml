@@ -1,22 +1,4 @@
 ---
 label: Images
 hide_body: true
-fields:
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: Image
-- name: alt
-  type: text
-  config:
-    required: false
-  label: Alt
-- name: external_link
-  type: boolean
-  label: External Link
-- name: link
-  type: text
-  config:
-    required: false
-  label: Link
+fields: []
