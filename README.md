@@ -34,4 +34,4 @@ Just follow the form :)
 
 ## Add social links
 
-In the left menu click on `Data` then `social.yml`. Then click on `Add social`, click on the card and fill the form. For the icon, go to [Font Awesome](https://fontawesome.com/), choose the icon you want and paste the icon class. Eg: `fab fa-behance`.
+In the left menu click on `Data` then `social.yml`. Then click on `Add social`, click on the card and fill the form. For the icon, go to [Font Awesome](https://fontawesome.com/){:target="_blank"}, choose the icon you want and paste the icon class. Eg: `fab fa-behance`.
