@@ -19,12 +19,15 @@ experiences:
   date: December 2018 - May 2019
   description: Working for a non-profit ogranisation helping refugees in need.
   skills: Teamwork, Microsoft Office, InDesign
-- title: ''
-  city: ''
+- title: English Tutor
+  city: Warsaw
   company: ''
-  date: ''
-  description: ''
-  skills: ''
+  date: September 2015 - April 2018
+  description: Planning and delivering private lessons to students of different levels
+    of proficiency, providing support before tests and exams, helping students to
+    improve their listening, speaking, writing, reading and skills.
+  skills: Teaching a foreign language, goal oriented teaching methodology lateral
+    thinking, mentoring.
 educations:
 - title: Title
   school: School
