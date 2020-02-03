@@ -41,8 +41,10 @@ educations:
   date: 2018 - 2019
   description: Student exchange.
 languages:
-- name: Language name
-  level: Level
+- name: Polish
+  level: Native
+- name: English
+  level: Fluent
 skills:
 - Skill
 - skill
