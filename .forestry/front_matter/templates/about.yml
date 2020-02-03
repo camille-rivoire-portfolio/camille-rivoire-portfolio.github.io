@@ -86,6 +86,8 @@ fields:
 - type: list
   name: skills
   label: Skills
-- type: file
-  name: cv_link
+- name: cv_link
+  type: file
+  config:
+    maxSize: 250
   label: CV
