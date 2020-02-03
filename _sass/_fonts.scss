@@ -64,6 +64,7 @@ h3 {
 p {
 	@extend %montserrat;
 	font-size: $font-body;
+	line-height: $font-body*2;
 }
 
 .intro, .intro p {
