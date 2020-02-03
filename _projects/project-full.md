@@ -8,6 +8,20 @@ typeds:
 - Berlin
 - Project
 sections:
+- title: Screens
+  content: ''
+  pictures: true
+  images:
+  - "/meetive-mobile-screen-2.png"
+  - "/blancc-mobile-2.png"
+  - "/meetive-mobile-screen-3.png"
+  background: ''
+- title: Styles
+  background: ''
+  content: ''
+  pictures: true
+  images:
+  - "/sotonweb-style-tile.png"
 - title: Logo redesign
   background: purple
   content: According to the client’s request, I redesigned the logo, that looked very
@@ -17,14 +31,6 @@ sections:
     the color palette used for the website.
   pictures: false
   images: []
-- title: Screens
-  content: ''
-  pictures: true
-  images:
-  - "/meetive-mobile-screen-2.png"
-  - "/blancc-mobile-2.png"
-  - "/meetive-mobile-screen-3.png"
-  background: ''
 - title: UX Research & Design process
   background: white
   content: 'My research for this project was mostly based on the visual competitors’
