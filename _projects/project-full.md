@@ -8,6 +8,18 @@ typeds:
 - Berlin
 - Project
 sections:
+- title: Overview
+  background: gray
+  content: |-
+    The website lets the user easily navigate among four main categories. Each of them can be selected both from the navigation bar or from the homepage. To highlight the most crucial category for the user, informing about the company’s services, I drew the icons and designed the hover effects. The traditional menu in the mobile version has been replaced by the burger one.
+
+    UX Tools: UX Research, Competitors’ Analysis, Site Map, Information Architecture, Wireframing, User Testing
+
+    UI Tools: Moodboard, Style Tile, Mock Ups, Micro Interactions
+
+    Softwares: Sketch, Adobe Illustrator, InVision, Principle
+  pictures: false
+  images: []
 - title: Screens
   content: ''
   pictures: true
