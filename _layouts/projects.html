@@ -33,6 +33,7 @@ layout: default
 			</li>
 			{% endfor %}
 		</ul>
+		{{ section.content | markdownify }}
 	</div>
 </section>
 {% else %}
